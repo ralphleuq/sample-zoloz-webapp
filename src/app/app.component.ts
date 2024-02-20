@@ -35,6 +35,7 @@ export class AppComponent {
 
         this.safeUrl = this.sanitizer.bypassSecurityTrustResourceUrl(this.baseUrl + this.clientCfg);
 
+
         console.log(this.safeUrl);
         this.isInitialized = true;
       },
