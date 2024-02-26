@@ -14,7 +14,7 @@ export class ZolozService {
     const params = new HttpParams();
     return this.httpClient
       .get<any>(
-        backend + "/ekyc/api/realid/h5initialize",
+        backend + "/api/realid/h5initialize",
       );
   }
 }
